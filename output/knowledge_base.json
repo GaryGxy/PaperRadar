@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-04-25T16:46:21.740507",
+  "total_papers": 5,
+  "papers": [
+    {
+      "title": "VideoPoet: A Large Language Model for Long-Form Video Generation",
+      "authors": [
+        "Klaus S."
+      ],
+      "published": "2026-04-20T00:00:00Z",
+      "year": 2026,
+      "source": "arXiv",
+      "citations": 127,
+      "topic": "LLM",
+      "link": "https://arxiv.org/abs/2501.12345",
+      "pdf_url": "https://arxiv.org/pdf/2501.12345",
+      "score": 0.8438,
+      "summary": "",
+      "archived_path": "./output/archives/llm/2026-04-20_videopoet-a-large-language-model-for-long-form-video-generat.md"
+    },
+    {
+      "title": "Agents Playground: Benchmarking Autonomous Web Agents",
+      "authors": [
+        "Sarah Chen"
+      ],
+      "published": "2026-04-22T00:00:00Z",
+      "year": 2026,
+      "source": "arXiv",
+      "citations": 89,
+      "topic": "AI Agent",
+      "link": "https://arxiv.org/abs/2504.34567",
+      "pdf_url": "https://arxiv.org/pdf/2504.34567",
+      "score": 0.7177,
+      "summary": "",
+      "archived_path": "./output/archives/ai_agent/2026-04-22_agents-playground-benchmarking-autonomous-web-agents.md"
+    },
+    {
+      "title": "MAmmoTH2: Scaling Instruction Tuning for Mathematical Reasoning",
+      "authors": [
+        "Xinyu Wang"
+      ],
+      "published": "2026-04-18T00:00:00Z",
+      "year": 2026,
+      "source": "arXiv",
+      "citations": 43,
+      "topic": "LLM",
+      "link": "https://arxiv.org/abs/2504.23456",
+      "pdf_url": "https://arxiv.org/pdf/2504.23456",
+      "score": 0.4031,
+      "summary": "",
+      "archived_path": "./output/archives/llm/2026-04-18_mammoth2-scaling-instruction-tuning-for-mathematical-reasoni.md"
+    },
+    {
+      "title": "Dexterous Manipulation with Diffusion Transformers",
+      "authors": [
+        "Lin Zhu"
+      ],
+      "published": "2026-04-19T00:00:00Z",
+      "year": 2026,
+      "source": "arXiv",
+      "citations": 34,
+      "topic": "Robotics",
+      "link": "https://arxiv.org/abs/2504.45678",
+      "pdf_url": "https://arxiv.org/pdf/2504.45678",
+      "score": 0.3814,
+      "summary": "",
+      "archived_path": "./output/archives/robotics/2026-04-19_dexterous-manipulation-with-diffusion-transformers.md"
+    },
+    {
+      "title": "RiskGuard: Credit Risk Assessment for Digital Lending",
+      "authors": [
+        "Jing Li"
+      ],
+      "published": "2026-04-21T00:00:00Z",
+      "year": 2026,
+      "source": "arXiv",
+      "citations": 15,
+      "topic": "FinTech",
+      "link": "https://arxiv.org/abs/2504.56789",
+      "pdf_url": "https://arxiv.org/pdf/2504.56789",
+      "score": 0.34,
+      "summary": "",
+      "archived_path": "./output/archives/fintech/2026-04-21_riskguard-credit-risk-assessment-for-digital-lending.md"
+    }
+  ]
+}

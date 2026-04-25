@@ -56,7 +56,10 @@ def rank_papers(
         
         final_score = citation_weight * cite_score + recency_weight * time_score
         
-        scored.append((final_score, -_parse_date(p.get("published", "")), p))
+        pub_date = _parse_date(p.get("published", ""))
+        # 用日期的时间戳作为排序键（新论文排前面 = 更大的时间戳）
+        date_key = pub_date.timestamp() if pub_date else 0
+        scored.append((final_score, date_key, p))
     
     # 按分数降序，同分按日期降序
     scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
