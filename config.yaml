@@ -1,0 +1,37 @@
+# PaperRadar Configuration
+# 用户自定义追踪领域
+
+tracking_topics:
+  - name: "LLM"
+    keywords: ["large language model", "LLM", "GPT", "transformer", "RLHF", "instruction tuning"]
+    enabled: true
+  
+  - name: "AI Agent"
+    keywords: ["AI agent", "agentic AI", "autonomous agent", "tool use", "reasoning agent"]
+    enabled: true
+  
+  - name: "Robotics"
+    keywords: ["robotics", "manipulation", "grasping", "embodied AI", "sim2real"]
+    enabled: true
+  
+  - name: "FinTech"
+    keywords: ["financial technology", "credit risk", "fraud detection", "digital lending", "embedded finance"]
+    enabled: true
+
+# 归档设置
+archive:
+  output_dir: "./output/archives"
+  digest_dir: "./output/digest"
+  max_papers_per_topic: 20    # 每个领域最多保留篇数
+  paper_age_days: 7           # 只抓取近N天的论文
+
+# 热门论文算法
+ranking:
+  time_decay_days: 7         # 时间衰减半衰期（天）
+  citation_weight: 0.6        # 引用量权重 (0-1)
+  recency_weight: 0.4        # 新颖性权重 (0-1)
+  min_citations: 0           # 最少引用量阈值
+
+# API设置（可选，用户可填入自己的key）
+api_keys:
+  semantic_scholar: ""        # Semantic Scholar API Key（可选）

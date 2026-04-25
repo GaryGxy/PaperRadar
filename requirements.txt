@@ -1,0 +1,3 @@
+pyyaml
+requests
+arXiv-API==0.5.1
